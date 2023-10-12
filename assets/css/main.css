@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#first {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chef {
+  width: 85%;
+  height: 585px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chef .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.chef .texts .provide {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.chef .texts .provide h1, .chef .texts h2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 45px;
+}
+.chef .texts .text {
+  font-size: 19px;
+}
+.chef .texts .icons .icon {
+  width: 47%;
+  height: 60px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.chef .texts .icons .icon .point {
+  font-size: 35px;
+}
+.chef .texts .icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.chef .image {
+  height: 100%;
+}
+
+#second {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.salat {
+  width: 85%;
+  height: 585px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.salat .about {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.salat .about .good {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.salat .about .good h1, .salat .about h2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 45px;
+}
+.salat .about .paragraph {
+  font-size: 19px;
+}
+.salat .about button {
+  width: 180px;
+  height: 60px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid orangered;
+  cursor: pointer;
+}
+.salat .about button:hover {
+  background-color: orangered;
+  color: white;
+}

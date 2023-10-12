@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#first{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chef{
+    width: 85%;
+    height: 585px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .texts{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .provide{
+            display: flex;
+            flex-direction: column;
+            gap: 13px;
+        }
+        .provide h1,h2{
+            display: flex;
+            flex-direction: column;
+            font-size:45px;
+        }
+        .text{
+            font-size: 19px;
+        }
+
+        .icons .icon{
+            width: 47%;
+            height: 60px;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+
+            .point{
+                font-size: 35px;
+            }
+        }
+        .icons{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+    }
+    .image{
+        height: 100%;
+    }
+}
+
+#second{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.salat{
+    width: 85%;
+    height: 585px;
+    margin: auto;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:60px;
+    .about{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        .good{
+            display: flex;
+            flex-direction: column;
+            gap: 13px;
+        }
+        .good h1,h2{
+            display: flex;
+            flex-direction: column;
+            font-size:45px;
+        }
+        .paragraph{
+            font-size: 19px;
+        }
+        button{
+            width: 180px;
+            height: 60px;
+            border-radius: 5px;
+            font-size: 16px;
+            border: 1px solid orangered; 
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: orangered;
+            color: white;
+        }
+    }
+}
